@@ -37,14 +37,14 @@ const Search = () => {
 
   return (
     <>
-      <Title>GitHub Finder</Title>
+      <Title>GitHub User Finder</Title>
 
       <Form onSubmit={handleSubmit}>
         <Input
           style={error !== "" ? { border: "1px solid #ED4337" } : {}}
           onChange={handleChange}
           type="text"
-          placeholder="Find a repository..."
+          placeholder="Find a GitHub user..."
           value={search}
         />
         <Button
